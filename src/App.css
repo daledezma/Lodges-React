@@ -1,0 +1,88 @@
+body {
+  font-family: "Helvetica";
+}
+
+#bannerDells {
+  width: 100%;
+  position: relative;
+}
+
+#bannerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: 10px;
+  right: 10px;
+  transform: translate(-50%, -50%);
+  font-size: larger;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.site-footer {
+  width: 100%;
+  background-color: #7d3cff;
+  padding: 3%;
+  color: #fff;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #f2d53c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #f2d53c;
+  opacity: 80%;
+}
+
+#contactContainer {
+  border-radius: 5px;
+  padding: 40px;
+}
+
+#ticket {
+    font-size: smaller;
+}
+
+.list-group {
+    width: 50%;
+    position: center;
+}
+
+.navbar-dark {
+  background-color: #7d3cff;
+}
+
+.jumbotron-fluid {
+  color: #7d3ccf;
+  background-image: require('/assets/images/bg.jpg');
+}
